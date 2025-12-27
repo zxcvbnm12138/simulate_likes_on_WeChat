@@ -1,8 +1,8 @@
 {
   "app": {
-    "bundleName": "com.example.wx_dianzan",
-    "vendor": "example",
-    "versionCode": 1000000,
+    "bundleName": "com.blsx.simulate_likes_on_WeChat",
+    "vendor": "blsx",
+    "versionCode": 1000002,
     "versionName": "1.0.0",
     "icon": "$media:app_icon",
     "label": "$string:app_name"

@@ -1,26 +1,64 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\11720\\.ohos\\config\\default_wx_like_yAa99bX7WCXh0UrOlBgQh08Gr1wjeO-0SUZoKo22iXA=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B084F535C0CE6D7E76A590B54DAF9BBC6FFBA06FFE4CBD446CAC912DE9BAE629C189DF2A81F0BC9",
+          "profile": "C:\\Users\\11720\\.ohos\\config\\default_wx_like_yAa99bX7WCXh0UrOlBgQh08Gr1wjeO-0SUZoKo22iXA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\11720\\.ohos\\config\\default_wx_like_yAa99bX7WCXh0UrOlBgQh08Gr1wjeO-0SUZoKo22iXA=.p12",
+          "storePassword": "0000001B5C96AA3AB84F3C9D041C892F0F129E4CBF766B9143B31AB2D220A7FE320A50490869A86CBC00C9"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compatibleSdkVersion": "5.0.1(13)",
+        "compatibleSdkVersion": "6.0.1(21)",
         "runtimeOS": "HarmonyOS",
         "buildOption": {
           "strictMode": {
             "caseSensitiveCheck": true,
             "useNormalizedOHMUrl": true
           }
-        }
+        },
+        "targetSdkVersion": "6.0.1(21)"
       }
     ],
     "buildModeSet": [
       {
-        "name": "debug",
+        "name": "debug"
       },
       {
         "name": "release"
+      }
+    ],
+    "capabilities": [
+      {
+        "bundleName": "com.blsx.simulate_likes_on_WeChat",
+        "config": [
+          {
+            "name": "Push Kit",
+            "capability": "com.huawei.service.push.base_service"
+          },
+          {
+            "name": "Device status detection",
+            "capability": "com.huawei.service.device_security.device_verify"
+          },
+          {
+            "name": "Map Kit",
+            "capability": "com.huawei.service.mapkit"
+          },
+          {
+            "name": "Safety Detect",
+            "capability": "com.huawei.service.device_security.safety_detect"
+          }
+        ]
       }
     ]
   },
