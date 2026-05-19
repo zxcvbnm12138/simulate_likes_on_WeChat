@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 21,
+  "objectTypes": [
+    {
+      "objectTypeName": "comment_obj",
+      "fields": [
+        {
+          "fieldName": "comment_avatar",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "comment_nickname",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "comment_content",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "comment_time",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "wx_number",
+          "fieldType": "String",
+          "belongPrimaryKey": true,
+          "notNull": true,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "pyq_id",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": true,
+          "isNeedEncrypt": false,
+          "isSensitive": false,
+          "defaultValue": ""
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "objectTypeName": "pyq_data",
+      "fields": [
+        {
+          "fieldName": "wx_number",
+          "fieldType": "String",
+          "belongPrimaryKey": true,
+          "notNull": true,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "year",
+          "fieldType": "Integer",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "content",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "gallery",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "location",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "love_num",
+          "fieldType": "Integer",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "comment_num",
+          "fieldType": "Integer",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "comment_content",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "show_time",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "share_time",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "link",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "link_image_url",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "share_source",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "pyq_id",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": true,
+          "isNeedEncrypt": false,
+          "isSensitive": false,
+          "defaultValue": ""
+        }
+      ],
+      "indexes": [
+        {
+          "indexName": "year_list",
+          "indexList": [
+            {
+              "fieldName": "year",
+              "sortType": "DESC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "objectTypeName": "personal_detail_data",
+      "fields": [
+        {
+          "fieldName": "wx_number",
+          "fieldType": "String",
+          "belongPrimaryKey": true,
+          "notNull": true,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "avatar",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "nickname",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "district",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "pyq_first4_pic",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        },
+        {
+          "fieldName": "bg",
+          "fieldType": "String",
+          "belongPrimaryKey": false,
+          "notNull": false,
+          "isNeedEncrypt": false,
+          "isSensitive": false
+        }
+      ],
+      "indexes": []
+    }
+  ],
+  "permissions": [
+    {
+      "objectTypeName": "comment_obj",
+      "permissions": [
+        {
+          "role": "World",
+          "rights": [
+            "Read"
+          ]
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ]
+    },
+    {
+      "objectTypeName": "pyq_data",
+      "permissions": [
+        {
+          "role": "World",
+          "rights": [
+            "Read"
+          ]
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ]
+    },
+    {
+      "objectTypeName": "personal_detail_data",
+      "permissions": [
+        {
+          "role": "World",
+          "rights": [
+            "Read"
+          ]
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ]
+    }
+  ]
+}

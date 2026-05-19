@@ -1,4 +1,7 @@
 import { upload_local } from './tool';
+import { cloudDatabase } from '@kit.CloudFoundationKit';
+
+let databaseZone = cloudDatabase.zone('QuickStartDemo');
 
 export interface comment_obj {
   comment_avatar: string
@@ -461,7 +464,6 @@ struct dddd {
   }
 
   build() {
-
   }
 }
 
