@@ -42,7 +42,7 @@ simulate_likes_on_WeChat/
 远程仓库：
 
 ```text
-https://github.com/zxcvbnm12138/wx_like.git
+https://github.com/zxcvbnm12138/simulate_likes_on_WeChat.git
 ```
 
 当前归档分支：`master`

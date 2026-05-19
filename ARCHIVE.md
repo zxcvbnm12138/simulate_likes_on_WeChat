@@ -14,15 +14,15 @@
 
 ### 远程信息
 
-- 远程仓库：`https://github.com/zxcvbnm12138/wx_like.git`
+- 远程仓库：`https://github.com/zxcvbnm12138/simulate_likes_on_WeChat.git`
 - 归档分支：`master`
 - 归档日期：`2026-05-19`
 
 ### 恢复方式
 
 ```bash
-git clone https://github.com/zxcvbnm12138/wx_like.git
-cd wx_like
+git clone https://github.com/zxcvbnm12138/simulate_likes_on_WeChat.git
+cd simulate_likes_on_WeChat
 ```
 
 恢复后建议使用 DevEco Studio 打开项目并重新同步依赖。
